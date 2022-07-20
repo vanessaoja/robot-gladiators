@@ -58,9 +58,9 @@ var fight = function(enemyName) {
       fight();
     }
   }
-  //fight function statements
+ 
 }
-
+ //fight function statements
 for(var i = 0; i < enemyNames.length; i++) {
   fight(enemyNames[i]);
 }
