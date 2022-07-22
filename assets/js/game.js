@@ -11,7 +11,7 @@ var fight = function(enemyName) {
   while (playerHealth > 0 && enemyHealth > 0) {
     // ask player if they'd like to fight or run
     var promptFight = window.prompt("Would you like to FIGHT or SKIP this battle? Enter 'FIGHT' or 'SKIP' to choose.");
-    //moved skip to top
+  
   // if player choses to skip
   if (promptFight === "skip" || promptFight === "SKIP") {
     //confirm player wants to skip
